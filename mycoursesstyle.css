@@ -1,0 +1,75 @@
+
+ h1 {
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+header {
+    background-color: #3e0307;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* Navigation */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 25px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #3e0307;
+    border-radius: 5px;
+}
+
+/* Hover effect */
+nav ul li a:hover {
+    background-color: #414950b8;
+}
+
+
+/* Table Styling */
+table {
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #3e0307;
+    color: white;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+/* Hover on rows */
+tr:hover {
+    background-color: #514f4fd4;
+}
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}

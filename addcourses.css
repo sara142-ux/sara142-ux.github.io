@@ -1,0 +1,107 @@
+
+/* Header */
+ h1 {
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+header {
+    background-color: #3e0307;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 25px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #3e0307;
+    border-radius: 5px;
+}
+
+/* Hover effect */
+nav ul li a:hover {
+    background-color: #414950b8;
+}
+
+
+/* Section */
+section {
+    display: flex;
+    justify-content: center;
+}
+ h2 {
+    text-align: right;
+    padding-right: 10px;
+}
+
+/* Form Box */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+}
+
+/* Inputs */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #440505;
+    border-radius: 5px;
+}
+
+/* Button */
+button {
+    width: 100%;
+    background-color: #3e0307;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Hover */
+button:hover {
+    background-color: #414950b8;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    form {
+        width: 90%;
+    }
+}
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}

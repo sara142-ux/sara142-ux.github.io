@@ -1,0 +1,72 @@
+
+header {
+    background-color: #3e0307;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    color: white;
+    padding: 10px 15px;
+    display: block;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #414950b8;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Features Layout */
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+/* Box */
+.feature-box {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 0 15px #3e0307;
+    transition: 0.3s;
+}
+
+/* Hover */
+.feature-box:hover {
+    transform: scale(1.05);
+}
+
+/* Images */
+.feature-box img {
+    width: 300px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

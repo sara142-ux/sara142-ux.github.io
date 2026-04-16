@@ -1,0 +1,114 @@
+section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+
+/* Header */
+ h1 {
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+header {
+    background-color: #3e0307;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 25px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #3e0307;
+    border-radius: 5px;
+}
+
+/* Hover effect */
+nav ul li a:hover {
+    background-color: #414950b8;
+}
+
+/* شكل الفورم */
+form{
+    background-color: white;
+    padding: 30px;
+    width: 350px;
+    margin: 50px auto; 
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* العنوان */
+form h2{
+    margin-bottom: 20px;
+    color: #6b0000;
+}
+
+/* الانبوتس */
+form input,
+form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* تأثير لما تدوسي جوه الانبوت */
+form input:focus,
+form textarea:focus{
+    border-color: #6b0000;
+    box-shadow: 0 0 5px rgba(107,0,0,0.3);
+}
+
+/* زرار الارسال */
+form button{
+    width: 100%;
+    padding: 10px;
+    background-color: #6b0000;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+form button:hover{
+    background-color: #414950b8;
+}
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
